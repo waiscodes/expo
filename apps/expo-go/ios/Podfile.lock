@@ -41,8 +41,14 @@ PODS:
     - ExpoModulesCore
   - ExpoAppleAuthentication (6.3.0):
     - ExpoModulesCore
+<<<<<<< HEAD
   - ExpoAsset (9.0.1):
     - ExpoModulesCore
+||||||| parent of b7d9e517a0 ([audio] Activate - deactivate session)
+=======
+  - ExpoAudio (0.1.0):
+    - ExpoModulesCore
+>>>>>>> b7d9e517a0 ([audio] Activate - deactivate session)
   - ExpoBackgroundFetch (11.8.0):
     - ExpoModulesCore
   - ExpoBattery (7.7.1):
