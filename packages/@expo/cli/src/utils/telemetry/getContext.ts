@@ -12,7 +12,7 @@ export function getContext() {
   return {
     os: { name: platform, version: os.release() },
     device: { type: platform, model: platform },
-    app: { name: 'expo', version: process.env.__EXPO_VERSION },
+    app: { name: 'expo/cli', version: process.env.__EXPO_VERSION },
     ci: ciInfo.isCI ? { name: ciInfo.name, isPr: ciInfo.isPR } : undefined,
   };
 }

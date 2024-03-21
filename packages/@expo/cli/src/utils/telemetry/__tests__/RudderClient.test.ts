@@ -33,10 +33,6 @@ it('tracks event when user is identified', async () => {
     userId: 'fake',
     anonymousId: expect.any(String),
     event: 'Start Project',
-    properties: expect.objectContaining({
-      source: 'expo/cli',
-      source_version: process.env.__EXPO_VERSION, // undefined in testing
-    }),
     context: getContext(),
   });
 });
